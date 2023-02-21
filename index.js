@@ -47,7 +47,7 @@ function update() {
         document.getElementById("hide1").style.display = "none";
         document.getElementById("hide2").style.display = "block";
 
-        document.querySelector("#title").innerText = "Congratulations, you answered " + score + "/" + dataSize + " questions correctly.";
+        document.querySelector("#title").innerText = "Congradulations, you answered " + score + "/" + dataSize + " questions correctly.";
         document.querySelector("#startButton").innerText = "Play 1 more time";
 
         finished = true;
